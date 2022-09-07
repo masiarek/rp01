@@ -1,0 +1,7 @@
+[config]
+config1 = false # no need to remove digits
+
+[content]
+data = '''
+cccc1, cc1, cccccccc1
+c2, ccc2, cccc2'''

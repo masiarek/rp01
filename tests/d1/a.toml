@@ -1,0 +1,7 @@
+[config]
+config1 = true
+
+[content]
+data = '''
+aaa, aa, aaaa
+a, aaa, aaa'''
