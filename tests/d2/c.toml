@@ -7,5 +7,6 @@ cccc1, cc1, cccccccc1
 c2, ccc2, cccc2'''
 
 [expected]
-results = '''cccc, cc, cccccccc
+results = '''
+cccc, cc, cccccccc
 c1, ccc, cccc'''
