@@ -1,0 +1,9 @@
+function = "number_tools.reverse_integer"
+
+[[tests]]
+number   = 12345
+expected = 54321
+
+[[tests]]
+number   = 11
+expected = 11
