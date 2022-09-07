@@ -6,7 +6,7 @@ if config1 = true
   remove digits in data
   
   
-example:
+example - original file - *before* being processed :
 
 [config]
 config1 = true
@@ -18,3 +18,11 @@ a2, aaa2, aaa2'''
 
 
 use pytest (fixture or yiled?)
+file *after* being processed:
+[config]
+config1 = true
+
+[content]
+data = '''
+aaa, aa, aaaa
+a, aaa, aaa'''
