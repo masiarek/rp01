@@ -1,5 +1,5 @@
 [config]
-config1 = false
+config1 = false # do not remove digits
 
 [content]
 data = '''

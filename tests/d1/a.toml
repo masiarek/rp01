@@ -1,7 +1,11 @@
 [config]
-config1 = true
+config1 = true # remove digits
 
 [content]
 data = '''
 aaa1, aa1, aaaa1
 a2, aaa2, aaa2'''
+
+[expected]
+result = '''aaa, aa, aaaa
+a, aaa, aaa'''
