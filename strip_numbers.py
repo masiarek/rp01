@@ -1,4 +1,5 @@
 import string
+import regex as re
 
 data = """
 aaa1, aa1, aaaa1
@@ -6,8 +7,8 @@ a2, aaa2, aaa2"""
 
 
 def strip_all_number(data):
-    return data.strip(string.digits)
+    p = re.compile(r"\d")
+    return re.sub(p, "", data)
 
 
-new_data = strip_all_number(data)
-print(new_data)
+print(strip_all_number(data))
