@@ -1,0 +1,15 @@
+[config]
+keep_digits = false # keep digits
+
+[content]
+data = '''
+d1, dd1, ddddd1
+ddd2, dddd2, d2
+'''
+
+
+[expected]
+result = '''
+d1, dd1, ddddd1
+ddd2, dddd2, d2
+'''

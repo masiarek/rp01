@@ -1,5 +1,5 @@
 [config]
-config1 = true # remove digits
+keep_digits = true # remove digits
 
 [content]
 data = '''
