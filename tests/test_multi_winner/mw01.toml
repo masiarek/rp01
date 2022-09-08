@@ -1,5 +1,5 @@
 [Election_Parameters]
-name = "election name - multiwinner example"
+name = "multi-winner - allocated score"
 candidates = ['A', 'B', 'C', 'D', 'E', 'F']
 number_of_seats = 3
 multiwinner_method = "STAR_PR_Allocated_Score"

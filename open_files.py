@@ -9,4 +9,3 @@ path, file = os.path.split(os.path.realpath("d.toml"))
 print("path = ", path)
 print("file = ", file)
 
--95
