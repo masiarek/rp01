@@ -1,7 +1,0 @@
-[config]
-keep_digits = false # do not remove digits
-
-[content]
-data = '''
-bbbbbbb1, bb1, b1
-bb2, bbwf2, bbbbbb2'''
