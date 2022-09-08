@@ -1,0 +1,11 @@
+function = "number_tools.list_numbers"
+
+[[tests]]
+string       = "123,a1213,121.12,21212"
+remove_chars = true
+expected     = [123.0, 1213.0, 121.12, 21212.0]
+
+[[tests]]
+string       = "123,a1213,121.12,21212"
+remove_chars = false
+expected     = [123.0, 121.12, 21212.0]
